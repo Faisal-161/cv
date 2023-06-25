@@ -3,9 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('portfolio.jpg');
+    background-image: url('vc.jpeg');
+    
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 header {
@@ -48,15 +50,16 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color:#8b8a8a;
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-top: 100px;
 }
 .resized-image-LI {
-    width: 153px;
-    height: 100px;
-    margin-right: 100px; /* maintain the aspect ratio */
+    width: 141px;
+    height: 134px;
+    margin-right: 86px; /* maintain the aspect ratio */
 
     
   }
@@ -65,7 +68,9 @@ footer {
 
     width: 112px;
     height: 97px;
-    margin-right: 100px; /* maintain the aspect ratio */
+    margin-right: 100px;
+     /* maintain the aspect ratio */
+     margin-bottom: 20px;
     
 }  
 
@@ -73,6 +78,39 @@ footer {
 .resized-image-KG{
 
     width: 189px;
-    height: 77px; /* maintain the aspect ratio */
+    height: 77px;
+    margin-bottom: 28px; /* maintain the aspect ratio */
+    margin-right : 64px ;
+}
+
+.resized-image-LC{
+
+    width: 189px;
+    height: 77px;
+    margin-bottom: 28px ;
     
+    
+}
+
+.intro{
+
+    
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    /*text-shadow: 1px 1px 2px rgba(98, 175, 201, 0.937);*/
+    /*background-color: #f7f7f7;*/
+    padding: 10px;
+    margin-bottom: 20px;
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 5px;*/
+      
+      
+}
+
+.logo{
+
+    background-color:#d9e1e1;
+    padding: 0px;
 }
