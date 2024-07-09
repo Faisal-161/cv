@@ -1,0 +1,219 @@
+html {
+    scroll-behavior: smooth;
+    /* transition: transform 1s ease-out; */
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      color: #3a3636;
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .head {
+      position: relative;
+    }
+  
+    .top_bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      color: rgb(252, 252, 252);
+      z-index: 2;
+      background-color:rgb(88, 85, 85) ;
+      position: fixed;
+      width: 100%;
+      margin-bottom: auto;
+    }
+  
+    .title_name {
+      font-family: "Optima", sans-serif;
+      font-weight: bolder;
+      font-size: 30px;
+    }
+    
+    .title_name a {
+      cursor: pointer;
+      text-decoration: none;
+    }
+    
+    .first_name {
+      color: #fff;
+    }  
+    .last_name {
+      color: rgb(255, 91, 3);
+    }
+  
+    .nav{
+      width: 50%;
+      margin: 0;
+      margin-right: 1.5%;
+      text-align: right;
+      padding-right: 2px;
+    } 
+    .nav a {
+      font-family: Courier, monospace;
+      padding-left: 2%;
+      padding-right: 2%;
+      list-style: none;
+      color: #fff;
+      text-decoration: none;
+      position: relative;
+      margin: 0;
+      margin-right: 5%;
+    }
+  
+    .home{
+      padding-top: 2%;
+      padding-left: 10%;
+      padding-right: 5%;
+    }
+   /* .prof_img{
+      text-align: left;
+      width: 150px;
+      height: 170px;
+      border-radius: 25%;
+      margin-top: 100px;
+    }
+    .intro{
+      margin-left: 30%;
+      margin-top: -160px;
+      font-size: smaller;
+    }  */
+    .prof_img{
+      text-align: right;
+      margin-left: 70%;
+      width: 150px;
+      height: 170px;
+      border-radius: 15%;
+      margin-top: 100px;
+      position: relative;
+    }
+    .intro{
+      margin-right: 40%;
+      margin-top: -160px;
+      font-size: smaller;
+      text-align: center;
+      position: relative;
+    }
+  
+    .about{
+      padding-left: 10px;
+      margin-top: 3%;
+      margin-left: 1.5%;
+      position: relative;
+      margin-bottom: 50px;
+    }
+    .aboutTitle{
+      margin: 0;
+    }
+  
+    .sidebar {
+      list-style: none;
+      font-size: 15px; 
+      width: 180px;
+      position: absolute;
+    }
+  
+  #pi{
+    color: black;
+    background-color: white;
+  }
+  
+  .side {
+  border: 1px solid #5a5555;
+  list-style: none;
+  display: flex;
+  padding: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: #7a6f6f;
+  cursor:pointer;
+  }
+  .side:hover{
+    opacity: 0.8;
+  }
+  
+  .about-me{
+    margin-left: 200px;
+    width: 75%;
+    height: 280px;
+  
+    /* top: 10px; */
+    /* margin-top: 5px !important; */
+    /* margin-top: -315px; */
+    /* border-left: 1px solid #b3b0b0; */
+    /* border-top: 1px solid #b3b0b0; */
+  }
+  .v1{
+    height: 292px;
+    width: 75%;
+    position: absolute;
+    /* position: relative; */
+    margin: 0;
+  
+    margin-top: 2px;
+    border: 1px dotted black;
+    /* border-left: 1px dotted black; */
+    /* border-bottom: 1px dotted black; */
+  }
+  .about-me-content{
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 20px;
+    top: 8px;
+  
+    /* position: absolute;
+    margin-top: 8px;
+    max-height:270px;
+    max-width: 72%;
+    overflow-y:auto; */
+  
+    position: relative;
+    max-height:100%;
+    max-width: 100%;
+    overflow-y:auto;
+  }
+  
+  
+  table{
+    border-collapse: collapse;
+    font-size: large;
+    margin-top: 10px;
+  }
+  td, th{
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: rgb(6, 10, 10);
+  }
+  .td_border{
+    border-right: 1px solid black;
+    text-align: right;
+  }
+   .heading{
+    color: black;
+    font-size: large;
+   }
+   .sub_heading{
+    color: black;
+    font-size: medium;
+    line-height: 25px;
+    /* text-align: justify; */
+   }
+  
+   .btnScrollToTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    border: none;
+    z-index: 99;
+    display: none;
+  }
+  

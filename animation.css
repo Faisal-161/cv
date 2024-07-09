@@ -1,0 +1,57 @@
+.prof_img{
+  animation-name: pro_pic;
+  animation-duration: 5s;
+  animation-delay: -2s;
+  /* animation-timing-function: ease-in-out; */
+}
+@keyframes pro_pic {
+    /* from {left: 300px;}
+    to {left: 0px;} */
+    50%  {left:250px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+.intro, .about{
+    animation-name: bottom_to_up;
+    animation-duration: 4s;
+    animation-delay: -2s;
+}
+@keyframes bottom_to_up {
+    50%  {top:100px;}
+    100% {top:0px;}
+}
+
+.nav a::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 91, 3);
+  transform-origin: bottom center;
+  transition: transform 0.6s ease-out;
+  }
+  
+
+
+  .nav a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+  }
+
+
+
+  @keyframes smooth {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+.anivis , .arrow_upward {
+    animation: smooth 1s ease;
+}
