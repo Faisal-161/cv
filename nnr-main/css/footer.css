@@ -1,0 +1,32 @@
+
+.footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  background: rgb(88, 85, 85) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.foot{
+  margin-top: 20px;
+  bottom: 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 3px 0 10px 0;
+  font-size: 1rem;
+  /* font-weight: 300; */
+  width: auto;
+}
+.footer hr {
+  width:70%; 
+  height:2px;
+  color:gray;
+  background-color:gray;
+  margin: 5px 0 5px 0;
+}
+
+

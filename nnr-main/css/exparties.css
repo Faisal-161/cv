@@ -1,0 +1,114 @@
+
+.side_portions {
+    list-style: none;
+    font-size: 15px; 
+    width: 25%;
+    position: absolute;
+}
+
+.portion {
+border: 1px solid #5a5555;
+list-style: none;
+display: flex;
+padding: 5px;
+padding-top: 7px;
+padding-bottom: 7px;
+margin: 0;
+text-decoration: none;
+color: #fff;
+background-color: #7a6f6f;
+cursor:pointer;
+}
+.portion:hover{
+  opacity: 0.8;
+}
+.content_portion{
+    margin-left: 30%;
+    width: 60%;
+    height: 580px;
+}
+.outer_level{
+    /* height: 592px; */
+    height: inherit;
+    width: 60%;
+    position: absolute;
+    margin: 0;
+    margin-top: 2px;
+    border: 1px dotted black;
+}
+.display_portion{
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 20px;
+    top: 8px;
+    position: relative;
+    max-height:100%;
+    max-width: 100%;
+    overflow-y:auto;
+}
+
+
+
+
+/* try */
+
+.display{
+    margin-left: 30%;
+    width: 64%;
+    margin-top: 23px;
+    height: 480px;
+    border: 5px solid black;
+    align-items: center;
+}
+.display_two{
+    margin-left: 0.5%;
+    border: 1px solid #5a5555;
+    padding-top: 4px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    padding-bottom: 4px;
+    top: 4px;
+    position: relative;
+    max-height:93.5%;
+    width: 97%;
+    overflow-y:auto;
+}
+.out{
+    height: 494px;
+    width: 64%;
+    position: absolute;
+    /* padding-left: 15px; */
+    margin-left: -16px;
+    margin-top: -16px;
+    padding-right: 9px;
+    /* margin-right: -10px; */
+    border: 9px solid black;
+}
+.display3{
+    margin-left: 30%;
+    width: 62%;
+    align-items: center;
+    height: 480px;
+    margin-top: -10px;
+}
+
+.mid{
+    /* majhamajhi point = Left 12px+ width 2px+ right 12px= 26px/2 = 13px */
+    margin-left: 50%;
+    border:12px solid black;
+    height: 140px;
+    width: 2px;
+}
+.low{
+    margin-left: 50%;
+}
+
+.low2{
+    /* majhamajhi point = left 75px + right 75px = total length 150px /2 = 75px*/
+    /* tahole uporer shathe mil hote hole 75-13= 62px left er dike jaite hbe */
+    margin-left: -62px;
+    border-top: 50px solid black;
+    border-left: 75px solid black;
+    border-right: 75px solid black;
+    border-radius: 50%;
+}

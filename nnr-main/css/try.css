@@ -1,0 +1,64 @@
+
+.display{
+    margin-left: 250px;
+    width: 64%;
+    margin-top: 23px;
+    /* height: 480px; */
+    height: 380px;
+    border: 5px solid black;
+    align-items: center;
+}
+.display_two{
+    margin-left: 1%;
+    border: 1px solid green;
+    /* padding-top: 4px; */
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    /* padding-bottom: 4px; */
+    top: 4px;
+    position: relative;
+    height:97%;
+    width: 98%;
+    overflow-y:auto;
+    align-items: center;
+}
+.out{
+    /* height: 494px; */
+    height: 394px; 
+    width: 64%;
+    position: absolute;
+    /* padding-left: 15px; */
+    margin-left: -16px;
+    margin-top: -16px;
+    padding-right: 9px;
+    /* margin-right: -10px; */
+    border: 9px solid black;
+}
+.display3{
+    margin-left: 250px;
+    width: 62%;
+    align-items: center;
+    height: 480px;
+    margin-top: -10px;
+}
+
+.mid{
+    /* majhamajhi point = Left 12px+ width 2px+ right 12px= 26px/2 = 13px */
+    margin-left: 50%;
+    border:12px solid black;
+    height: 110px;
+    width: 2px;
+}
+.low{
+    margin-left: 50%;
+}
+
+.low2{
+    /* majhamajhi point = left 75px + right 75px = total length 150px /2 = 75px*/
+    /* tahole uporer shathe mil hote hole 75-13= 62px left er dike jaite hbe */
+    margin-left: -62px;
+    border-top: 50px solid black;
+    border-left: 75px solid black;
+    border-right: 75px solid black;
+    border-radius: 50%;
+}
