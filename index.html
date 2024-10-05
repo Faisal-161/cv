@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazia Nuzhat</title>
+    <link rel="stylesheet" href="css/profile_style.css">
+    <!-- <link rel="stylesheet" href="css/try.css"> -->
+    <link rel="stylesheet" href="css/about_show.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <!-- <link rel="stylesheet" href="css/displaysize.css"> -->
+    <link rel="stylesheet" href="css/footer.css">
+<!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+<!--     <link href='https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/paper/bootstrap.min.css' rel='stylesheet'> -->
+<!--     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+ 
+<body>
+  <div class="main-content" id="main-content">
+    <div class="head" id="home">
+        <div class="top_bar" id="top_bar">
+            <div class="title_name" id="title_name">
+                <a href="#">
+                  <span class="first_name">Na</span><span class="last_name">zia</span>
+                  <span class="first_name">Nuz</span><span class="last_name">hat</span>
+                </a>
+              </div>
+              
+            <div class="nav" id="nav">
+              <a href="#home">Home</a>
+              <a href="#about">About Me</a>
+              <a href="#">Contact</a>
+            </div>
+            <div class="menu" id="Menu" onclick="display_menubar()"> 
+              <p id="menu_p">Menu</p>
+              <!-- onMouseOver="show('menubar')" onMouseOut="hide('menubar')"-->
+            </div>
+      </div>
+            <div class="menubar" id="menubar" style="display: none;"> <br>
+              <a href="#home" class="ah">Home</a> <br>
+              <a href="#about" class="aa">About Me</a> <br>
+              <a href="#" class="ac">Contact</a>
+            </div>
+    </div>
+      <div class="home">
+        <img class="prof_img" id="prof_img" src="pic/300x240.jpg" alt="Profile Picture">
+
+        <div class="intro" id="intro">
+          <span class="">
+            <span class="name">Nazia Nuzhat</span>
+          </span>
+          <br><hr>
+          <span class="expertise">
+              Software Developer | Machine Learning Ehthusiast | Learner
+              <br> Department of Computer Science and Engineering.
+          </span>           
+          <br> <br>
+<!--           <span><a href="" name="Phone"><i class="fa fa-phone-square" style="font-size:36px;color: black;"></i></a> </span> &nbsp; -->
+          <span><a href="mailto:nazia.nuzhat24@gmail.com" name="Email"><i class="fa fa-envelope-square" style="font-size:36px;color: black;"></i></a> </span> &nbsp;
+          <span><a href="https://github.com/Nazia45" name="GitHub"><i class="fa fa-github-square" style="font-size:36px;color: black;"></i></a> </span> &nbsp;
+          <span><a href="https://www.linkedin.com/in/nazia-nuzhat-bb66a3239/" name="Linkedin"><i class="fa fa-linkedin-square" style="font-size:36px;color: black;"></i></a> </span> &nbsp;
+          <span><a href="https://www.facebook.com/nnr.nnr.1" name="Facebook"><i class="fa fa-facebook-square" style="font-size:36px;color: black;"></i></a></span> 
+        </div>
+      </div>
+    
+    <div class="about" id="about">
+      <h2 class="aboutTitle">About Me</h2>
+      <hr style="width:70%; text-align:left; margin-left:0; height:2px;color:gray;background-color:gray">
+
+        <div class="sidebar">
+          <p  class="side" id="pi" onclick="display_pro()"><span>Personal Information</span></p> 
+          <p class="side" id="aq" onclick="display_aq()"><span>Academic Qualification</span></p> 
+          <p class="side" id="pe" onclick="display_pe()"><span>Professional Experience</span></p> 
+          <p class="side" id="ri" onclick="display_ri()"><span>Research Interest</span></p> 
+          <p class="side" id="pub" onclick="display_pub()"><span>Publications</span></p> 
+          <p class="side" id="proj" onclick="display_proj()"><span>Projects</span></p> 
+          <p class="side" id="train" onclick="display_train()"><span>Training</span></p>
+          <p class="side" id="skl" onclick="display_skl()"><span>Skills</span></p> 
+          <p class="side" id="mem" onclick="display_mem()"><span>Membership</span></p> 
+        </div>
+
+        <div class="display">
+          <p class="out"></p>
+          <div class="display_two">
+           
+            <div class="anivis" id="personal_info">
+                <table>
+                  <tr>
+                    <td class="td_border">Name: </td>
+                    <td>Nazia Nuzhat </td>                    
+                  </tr>
+                  <tr>
+                    <td class="td_border">Nick Name: </td>
+                    <td>Runa</td>                    
+                  </tr>
+                  <tr>
+                    <td class="td_border">Occupation: </td>
+                    <td>Student </td>
+                  </tr>
+                  <tr>
+                    <td class="td_border">Email: </td>
+                    <td>nazia.nuzhat24@gmail.com </td>
+                  </tr>
+                  <tr>
+                    <td class="td_border">Phone: </td>
+                    <td> +880 1839166426 </td> 
+                  </tr>
+                  <tr>
+                    <td class="td_border">Blood Group: </td>
+                    <td>B+ </td>
+                  </tr>
+                </table>
+                <table>
+                    <br>
+                  <tr><th style="text-align: left;">Biography</th></tr>
+                  <tr><td>
+                    &nbsp; I am Nazia Nuzhat From Bangladesh.
+                  </td></tr>
+                </table>       
+            </div>
+
+            <div class="anivis" id="academic_qualification" style="display: none;">
+              <table>
+                <tr>
+                  <td style="width: 25%;">2021-2022</td>
+                  <th>Master of Science</th>
+                </tr>
+                <tr style="border-bottom: 1px solid black;">
+                  <td></td>
+                  <td>Cumulative GPA: 3.90 on a scale of 4 <br>
+                    Computer Science and Engineering <br>
+                    Jahangirnagar University, Bangladesh <br></td>
+                </tr>
+                <tr>
+                  <td style="width: 25%; padding-top: 15px;">2017-2021</td>
+                  <th style="padding-top: 15px;">Bachelor of Science</th>
+                </tr>
+                <tr style="border-bottom: 1px solid black;">
+                  <td></td>
+                  <td>Cumulative GPA: 3.87 on a scale of 4 <br>
+                    Computer Science and Engineering <br>
+                    Daffodil International University, Bangladesh</td>
+                </tr> 
+              </table>
+            </div>
+
+            <div class="anivis" id="professional_experience" style="display: none;">
+              <table>
+                <tr>
+                  <th style="text-align: left;">Aug. 2022 - Dec. 2022</th>
+                </tr>
+                <tr style="border-bottom: 1px solid black;">
+                  <td>
+                    Lecturer, Department of Computer Science and Engineering, <br>
+                    Daffodil International University, Dhaka, Bangladesh.
+                  </td>
+                </tr>
+                <tr>
+                  <th style="text-align: left; padding-top: 15px;">Mar. 2021 - Oct. 2021</th>
+                </tr>
+                <tr style="border-bottom: 1px solid black;">
+                  <td>
+                    Lecturer, Department of Computer Science and Engineering, <br>
+                    Royal University of Dhaka, Dhaka, Bangladesh.
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="anivis" id="research_interest" style="display: none;">
+              <p class="sub_heading">
+                Machine Learning, Deep Learning, Data Mining, Neural Network.
+              </p>
+            </div>
+
+            <div class="anivis" id="publications" style="display: none;">
+              <p class="heading"><b>Journals</b></p>
+
+              <ol class="sub_heading" type="1">
+                <li>Switched Fault tolerant Backstepping Control of a Rotor Tied DFIG Wind Energy Conversion System under Current Sensor Fault detection using Feedforward Neural Network. (Accepted)                  
+                </li>
+              </ol>
+            </div> 
+
+            <div class="anivis" id="projects" style="display: none;">
+              <p class="heading"><b>Project-List</b>
+              </p>
+              <ul class="sub_heading">
+                <li>M.Sc. Final Year Project: Fundamental Medical Aid
+                  (MediAid) (Program: PHP and Database: MySQL).</li>
+                <li>B.Sc. Final Year Web Project: Proper Use of An-
+                  tibiotics and Safe Health (PUASH). (PHP, HTML,
+                  CSS, MySQL, JavaScript, Bootstrap)</li>
+                <li>Course Project: Super Shop Management in Java (B.Sc.
+                  3rd Year)</li>
+                <li>Course Project: Bus Management System in C pro-
+                  gram ( B.Sc. 2nd Year)</li>
+                  <li>Problem Solving Course Project: Bank Management
+                    System in C program (B.Sc. 1st Year)</li>
+              </ul> 
+            </div>  
+            
+            <div class="anivis" id="training" style="display: none;">
+              <!-- <p class="heading"><b>Training</b></p> -->
+              <ul class="sub_heading">
+                <li><span><b>Web Development course,</b> Softcare IT, 2019</span></li>
+                <li><b>PHP course,</b> DIU CPC, 2017</li>
+              </ul>
+            </div>
+
+            <div class="anivis" id="skills" style="display: none;">
+              <table>
+                <tr><th style="text-align: left;">Programming Language</th>
+                </tr>
+                <tr><td>C/C++, Python, Java, PHP, HTML, CSS, JavaScript, Bootstrap.
+                  </td></tr>
+                <tr><th style="text-align: left; padding-top: 15px;">Software Project Management</th>
+                </tr>
+                <tr><td>SRS (Tools:Modelio),WBS(Tools: GanttProject), ER Diagram, Use case diagram, Constructive Cost Model(Tools: COCOMO II).
+                  </td></tr>
+                <tr><th style="text-align: left; padding-top: 15px;">Database</th>
+                </tr>
+                <tr><td> MySQL. </td>
+                </tr>
+                <tr><th style="text-align: left; padding-top: 15px;">Tools</th>
+                </tr>
+                <tr><td>Anaconda, PyCharm, NetBeans, Atom.</td>
+                </tr>
+                <tr><th style="text-align: left; padding-top: 15px;">Other Skills</th>
+                </tr>
+                <tr><td>Prolog, Prezi, LaTeX, MS Office, Google Colab, Blended Learning Center, Online Drawing.
+                  </td></tr>
+              </table>
+            </div>
+
+            <div class="anivis" id="Membership" style="display: none;">
+              <ul class="sub_heading">
+                <li>Computer Programming Club, Daffodil International University [ January. 2018 - January.2021 ]
+                </li>
+              </ul>
+            </div>           
+          
+            <div class="details"><p></p></div>
+          </div>
+        </div>
+        <div class="display3">
+          <p class="mid"></p><p class="low"><span class="low2"></span></p>
+        </div>
+  </div> 
+
+  <div class="about" id="exparties">
+    <!-- <h2 class="aboutTitle">Other Activities and Favourits</h2> -->
+    <hr style="width:70%; text-align:left; margin-left:0; height:2px;color:gray;background-color:gray">
+    <!-- exparties.css start -->
+    <!-- <div class="side_portions"> 
+      <p  class="portion" id="pw" onclick="display_pw()"><span>Project Works</span></p> 
+      <p class="portion" id="rw" onclick="display_rw()"><span>Reports Writing</span></p> 
+      <p  class="portion" id="sw" onclick="display_sw()"><span>Social Works</span></p> 
+      <p class="portion" id="poem" onclick="display_poem()"><span>Poem Writing</span></p> 
+      <p  class="portion" id="paper_craft" onclick="display_paper_craft()"><span>Paper Craft</span></p> 
+      <p class="portion" id="fb" onclick="display_fb()"><span>Favourit Books</span></p> 
+      <p class="portion" id="tnq" onclick="display_tnq()"><span>Thaughts and Qouts</span></p> 
+    </div> 
+    <div class="content_portion">
+      <p class="outer_level"></p>
+      <div class="display_portion">
+        hi
+      </div>
+    </div> -->
+    <!-- exparties.css end -->
+  </div>
+
+
+
+
+
+  
+  <div class="about-links" id="about">
+    <!-- <a href="#" onclick="showEducation(event)" id="education-link">Thaughts and Qouts</a> -->
+    <!-- <a href="#" onclick="showSkills(event)" id="skills-link">Favourit List and Poem or extra curriculam</a> -->
+  </div>
+
+
+
+  </div>
+
+
+  
+  <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <div >
+    <span class="arrow_upward"><a href="#home" ><i class="fa fa-arrow-circle-up" style="font-size:36px;"></i></a></span>
+  </div>
+  <div class="btnScrollToTop" id="backTop" data-scroll="up" type="button">
+    <span class="arrow_upward"><a href="#home" ><i class="fa fa-arrow-circle-up" style="font-size:36px;"></i></a></span>
+  </div> -->
+
+
+<!-- footer start-->
+  <div class="foot" id="footer">
+    <footer class="footer">
+      <hr>
+      <p>&copy;2024 Nazia Nuzhat | All Rights Reserved</p>
+    </footer>
+  </div>
+  <!-- footer end -->
+
+  
+
+  <!-- <div data-src="footer.html"></div>
+  <ui:include src="footer.html" />
+  <include src="footer.html"></include>
+  <div w3-include-html="footer.html"></div>  -->
+
+
+  <script src="js/about_show.js"></script>
+</body>
+
+</html>
