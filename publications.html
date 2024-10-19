@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications - Nazia Nuzhat's Portfolio</title>
+  <title>Publications - Faisal Islam's Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
   <!-- Hero Section with Background Image -->
   <div class="hero">
     <div class="hero-content">
-      <h1>Nazia Nuzhat</h1>
+      <h1>Faisal Islam</h1>
       <p>AI & Machine Learning Researcher</p>
     </div>
 
@@ -29,28 +29,61 @@
   <section id="publications" class="publications container">
     <h2>Publications</h2>
     <div class="publication-item">
+      <span class="date">2023</span>
+      <h4>Undergraduate Thesis: A Deep Learning Approach on Bengali News Classification using Gated Recurrent Neural Network</h4> 
+      <a class="see-more">See more</a>
+      <p >This research focuses on classifying the Bengali news headline using deep learning. It was my undergraduate thesis. Here I have worked in my native language 
+        to classify the news headline by utilizing the GRU architecture. On a imabalanced dataset the accuracy was very impressive on both training and testig set.
+      </p>
+      <button class="pdf-toggle">Preview Thesis PDF</button>
+      <div class="pdf-preview-container" style="display: none;">
+        <iframe id="thesis-pdf" src="Project-main-file-Updated (1).pdf" width="100%" height="600px" style="border: none;"></iframe>
+      </div>
+    </div>
+
+    <div class="publication-item">
       <span class="date">2024</span>
-      <h4>Switch Sensor for Fault Detection in Wind Energy Systems</h4> 
+      <h4>Lung Cancer Prediction using Hybrid Deep Learning Approach  (Going On)</h4>
       <a class="see-more">See more</a>
-      <p>This research focuses on fault detection using feed-forward neural networks to improve wind energy system efficiency.</p>
+      <p>In this study, we enhance lung cancer prediction by improving preprocessing techniques.
+        Here we are using a hybrid architecture for less error and efficiency.
+      </p>
     </div>
+
     <div class="publication-item">
-      <span class="date">2023</span>
-      <h4>Lung Cancer Prediction using Deep Learning</h4>
+      <span class="date">2024</span>
+      <h4>Plant Disease Classification using Attention-CNN (Going On)</h4>
       <a class="see-more">See more</a>
-      <p>In this study, we enhance lung cancer prediction by improving preprocessing techniques.</p>
+      <p>This research analyze the attention mechanism in the CNN architeture in order to make the model model more robust in feature extraction.
+        Here we used the a large dataset with 15 classes to train our model.
+      </p>
     </div>
+
     <div class="publication-item">
-      <span class="date">2023</span>
-      <h4>Plant Disease Classification using CNN</h4>
+      <span class="date">2024</span>
+      <h4>GSM based IoT Datalogger  (Manuscript is in progress)</h4>
+      <a class="see-more">See more</a>
+      <p>We developed a GSM based IoT datalogger to keep track of tempreture of medicine in various locaiton.Also store the information on in built memory.</p>
+    </div>
+
+    <div class="publication-item">
+      <span class="date">2024</span>
+      <h4>All in one ICSP programmer  (Manuscript is in progress) </h4>
       <a class="see-more">See more</a>
       <p>This research utilizes convolutional neural networks with attention layers for accurate plant disease classification.</p>
+    </div>
+
+    <div class="publication-item">
+      <span class="date">2024</span>
+      <h4>A Performance Comparison of Ensemble Models for Breast Cancer Classification (Manuscript is ready for submission)</h4>
+      <a class="see-more">See more</a>
+      <p>This research utilizes the robustness of ensemble ML model in classifying breast cancer. </p>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Nazia Nuzhat. All Rights Reserved.</p>
+    <p>&copy; 2024 Faisal Islam. All Rights Reserved.</p>
   </footer>
 
   <script>
@@ -67,6 +100,21 @@
         }
       });
     });
+
+    // Toggle PDF preview visibility
+    document.querySelectorAll('.pdf-toggle').forEach(button => {
+      button.addEventListener('click', event => {
+        const pdfContainer = event.target.nextElementSibling;
+        if (pdfContainer.style.display === 'block') {
+          pdfContainer.style.display = 'none';
+          event.target.innerText = 'Preview Thesis PDF';
+        } else {
+          pdfContainer.style.display = 'block';
+          event.target.innerText = 'Hide Thesis PDF';
+        }
+      });
+    });
   </script>
 </body>
 </html>
+
