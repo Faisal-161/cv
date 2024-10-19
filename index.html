@@ -44,7 +44,7 @@
     }
 
     .hero-content h1 {
-      font-size: 3.5rem;
+      font-size: 6vw; /* Adjust based on viewport width */
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -52,52 +52,51 @@
     }
 
     .hero-content p {
-      font-size: 1.5rem;
+      font-size: 2.5vw; /* Adjust based on viewport width */
       font-weight: 300;
       margin-top: 10px;
       text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
 
-
     /* Navigation Bar */
     .navbar {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    border-radius: 5px;
-    padding: 10px 20px;
-    z-index: 2; /* Above the hero overlay */
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+      border-radius: 5px;
+      padding: 10px 20px;
+      z-index: 2; /* Above the hero overlay */
     }
 
     .navbar a {
-    color: #ffffff; /* Change text color to white for better visibility */
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    position: relative; /* Position for the pseudo-element */
+      color: #ffffff; /* Change text color to white for better visibility */
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.2rem; /* Adjusting with rem for scaling */
+      position: relative; /* Position for the pseudo-element */
     }
 
     .navbar a:hover {
-    color: #8d80bb;
+      color: #8d80bb;
     }
 
     /* Underline Effect */
     .navbar a::after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #ecf8f7; /* Underline color */
-    transition: width 0.6s; /* Animation duration */
-    position: absolute;
-    bottom: -5px; /* Position under the text */
-    left: 0%; /* Center the underline */
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #ecf8f7; /* Underline color */
+      transition: width 0.6s; /* Animation duration */
+      position: absolute;
+      bottom: -5px; /* Position under the text */
+      left: 0%; /* Center the underline */
     }
 
     .navbar a:hover::after {
-    width: 100%; /* Full width on hover */
-    left: 0; /* Reset position on hover */
+      width: 100%; /* Full width on hover */
+      left: 0; /* Reset position on hover */
     }
 
     /* Image + Contact Section */
@@ -109,8 +108,8 @@
     }
 
     .intro-section img {
-      width: 300px;
-      height: 300px;
+      width: 30%; /* Set to percentage for responsiveness */
+      height: auto; /* Maintain aspect ratio */
       border-radius: 50%;
       object-fit: cover;
       margin-right: 40px;
@@ -121,15 +120,11 @@
     }
 
     .intro-content h2 {
-      font-size: 2.5rem;
-      color: #2c3e50;
-      margin-bottom: 20px;
+      font-size: 2.5rem; /* Adjust to rem units */
     }
 
     .intro-content p {
-      font-size: 1.2rem;
-      color: #7f8c8d;
-      margin-bottom: 20px;
+      font-size: 1.2rem; /* Same adjustment for paragraph */
     }
 
     .social-icons a {
@@ -153,14 +148,11 @@
 
     .about-section h2 {
       font-size: 2.5rem;
-      color: #2c3e50;
-      margin-bottom: 40px;
     }
 
     .about-section p {
       font-size: 1.2rem;
-      color: #7f8c8d;
-      max-width: 800px;
+      max-width: 80%; /* Adjust max width for responsiveness */
       margin: 0 auto;
       line-height: 1.7;
     }
@@ -184,8 +176,17 @@
       }
 
       .intro-section img {
+        width: 50%; /* Set width for smaller screens */
         margin-right: 0;
         margin-bottom: 20px;
+      }
+
+      .hero-content h1 {
+        font-size: 8vw; /* Larger font size on small screens */
+      }
+
+      .hero-content p {
+        font-size: 4vw; /* Adjust for small screens */
       }
     }
   </style>
@@ -218,7 +219,6 @@
         <a href="https://github.com/Faisal-161" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
         <a href="mailto:faisalislam1610@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
         <a href="https://www.facebook.com/faisal.islam.1610/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-        
       </div>
     </div>
   </section>
@@ -229,9 +229,8 @@
     <p>I am an AI & ML researcher with expertise in applying machine learning to healthcare solutions. My background includes a Bachelor in Computer Science, focusing on medical web-based applications and IoT-integrated machine learning systems.</p>
   </section>
 
-
   <footer>
-    <p>&copy; 2024 Nazia Nuzhat. All Rights Reserved.</p>
+    <p>&copy; 2024 Faisal Islam. All Rights Reserved.</p>
   </footer>
 
 </body>
