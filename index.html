@@ -6,16 +6,17 @@
   <title>Faisal Islam's Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   
   <style>
-    body {
+    /* body {
       font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
-    /* Enhanced Cover Section with Background Image */
+    
     .hero {
       height: 50vh;
       display: flex;
@@ -34,17 +35,17 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+      background: rgba(0, 0, 0, 0.5);
       z-index: 1;
     }
 
     .hero-content {
       position: relative;
-      z-index: 2; /* Bring content above overlay */
+      z-index: 2; 
     }
 
     .hero-content h1 {
-      font-size: 6vw; /* Adjust based on viewport width */
+      font-size: 6vw; 
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 2px;
@@ -52,54 +53,54 @@
     }
 
     .hero-content p {
-      font-size: 2.5vw; /* Adjust based on viewport width */
+      font-size: 2.5vw; 
       font-weight: 300;
       margin-top: 10px;
       text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
 
-    /* Navigation Bar */
+   
     .navbar {
       position: absolute;
       top: 20px;
       right: 20px;
-      background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+      background: rgba(0, 0, 0, 0.5); 
       border-radius: 5px;
       padding: 10px 20px;
-      z-index: 2; /* Above the hero overlay */
+      z-index: 2; 
     }
 
     .navbar a {
-      color: #ffffff; /* Change text color to white for better visibility */
+      color: #ffffff; 
       margin: 0 15px;
       text-decoration: none;
-      font-size: 1.2rem; /* Adjusting with rem for scaling */
-      position: relative; /* Position for the pseudo-element */
+      font-size: 1.2vw; 
+      position: relative; 
     }
 
     .navbar a:hover {
       color: #8d80bb;
     }
 
-    /* Underline Effect */
+   
     .navbar a::after {
       content: "";
       display: block;
       width: 0;
       height: 2px;
-      background: #ecf8f7; /* Underline color */
-      transition: width 0.6s; /* Animation duration */
+      background: #ecf8f7; 
+      transition: width 0.6s;
       position: fixed;
-      bottom: -5px; /* Position under the text */
-      left: 0%; /* Center the underline */
+      bottom: -5px;
+      left: 0%; 
     }
 
     .navbar a:hover::after {
-      width: 100%; /* Full width on hover */
-      left: 0; /* Reset position on hover */
-    }
+      width: 100%; 
+      left: 0; 
+    } */
 
-    /* Image + Contact Section */
+   
     .intro-section {
       display: flex;
       align-items: center;
@@ -107,30 +108,30 @@
       padding: 50px 2%;
     }
 
-    .intro-section img {
-      width: 30%; /* Set to percentage for responsiveness */
-      height: auto; /* Maintain aspect ratio */
+    /* .intro-section img {
+      width: 30%; 
+      height: 20%; 
       border-radius: 50%;
       object-fit: cover;
-      margin-right: 40px;
-    }
+      margin-right: 60px;
+    } */
 
     .intro-content {
-      max-width: 600px;
+      max-width: 30%;
     }
 
     .intro-content h2 {
-      font-size: 2.5rem; /* Adjust to rem units */
+      font-size: 2.5vw; 
     }
 
     .intro-content p {
-      font-size: 1.2rem; /* Same adjustment for paragraph */
+      font-size: 1.2vw;
     }
 
     .social-icons a {
       color: #2c3e50;
       margin-right: 15px;
-      font-size: 1.8rem;
+      font-size: 1.2vw;
       text-decoration: none;
       transition: color 0.3s ease;
     }
@@ -139,7 +140,7 @@
       color: #2980b9;
     }
 
-    /* About Section */
+    
     .about-section {
       padding: 60px 2%;
       background-color: #ecf0f1;
@@ -147,17 +148,17 @@
     }
 
     .about-section h2 {
-      font-size: 2.5rem;
+      font-size: 2.5vw;
     }
 
     .about-section p {
-      font-size: 1.2rem;
-      max-width: 80%; /* Adjust max width for responsiveness */
+      font-size: 1.2vw;
+      max-width: 80%; 
       margin: 0 auto;
       line-height: 1.7;
     }
 
-    /* Footer */
+    
     footer {
       text-align: center;
       padding: 20px 0;
@@ -176,24 +177,24 @@
       }
 
       .intro-section img {
-        width: 50%; /* Set width for smaller screens */
+        width: 50%; 
         margin-right: 0;
         margin-bottom: 20px;
       }
 
       .hero-content h1 {
-        font-size: 8vw; /* Larger font size on small screens */
+        font-size: 8vw; 
       }
 
       .hero-content p {
-        font-size: 4vw; /* Adjust for small screens */
+        font-size: 4vw; 
       }
     }
   </style>
 </head>
 <body>
     
-  <!-- Hero Section with Background Image -->
+ 
   <div class="hero">
     <div class="hero-content">
       <h1>Faisal Islam</h1>
@@ -210,7 +211,7 @@
 
   <!-- Intro Section with Image and Info -->
   <section class="intro-section">
-    <img src="" alt="Faisal Islam">
+    <img src="pic/300x240.jpg" alt="Faisal Islam">
     <div class="intro-content">
       <h2>Contact Me</h2>
       <p>Email: faisalislam1610@gmail.com | Phone: +880 1995269359</p>
